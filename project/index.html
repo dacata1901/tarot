@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+
+<body>
+
+<h2>30 Lá Bài (Chọn 5)</h2>
+<div class="gallery" id="gallery"></div>
+
+<h2>Khung chọn</h2>
+<div class="frame">
+    <div class="slot"></div>
+    <div class="slot"></div>
+    <div class="slot"></div>
+    <div class="slot"></div>
+    <div class="slot"></div>
+</div>
+
+<button id="openBtn" disabled>Mở 5 lá</button>
+
+<!-- Popup -->
+<div class="overlay" id="overlay">
+    <div class="popup">
+        <img id="popupImg">
+        <p id="popupText"></p>
+        <button id="nextBtn">Tiếp</button>
+    </div>
+</div>
+<audio id="tarotMusic" autoplay loop muted>
+    <source src="audio/little-creatures-cute-theme-386992.mp3" type="audio/mpeg">
+</audio>
+
+
+<script src="script.js"></script>
+</body>
+</html>
